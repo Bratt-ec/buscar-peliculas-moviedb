@@ -49,7 +49,7 @@ function mostrarAlerta(mensaje){
 async function buscarPelicula(){
     const  txtPelicula = document.querySelector('#txtPelicula').value;
     // key
-    const key = '98da8dd30fc05b04591833c8620534ab';
+    const key = 'get your key in www.themoviedb.org';
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=es-ES&query=${txtPelicula}&page=${paginaActual}&include_adult=false`;
 
     try {
